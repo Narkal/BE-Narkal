@@ -1,15 +1,32 @@
 {
   "name": "BE-Narkal",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.4",
+    "pg": "^7.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lundgrea/BE-Narkal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lundgrea/BE-Narkal/issues"
+  },
+  "homepage": "https://github.com/lundgrea/BE-Narkal#readme",
+  "description": ""
 }
