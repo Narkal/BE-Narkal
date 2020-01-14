@@ -5,6 +5,7 @@ const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
 const cors = require('cors');
 
+
 app.use(cors());
 
 app.use(express.json());
